@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;  
+}
+nav {
+  display: flex;
+  background: #F55A5A;
+  height: 55px;
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+}
+.navTitle {
+  color: #fff;
+  text-align: center;
+  padding-left: 5px;
+}
+.image-placeholder {
+  width: 125px;
+  height: 168px;
+  background: #000;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+.card {
+  display: flex;
+}
