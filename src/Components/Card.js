@@ -1,34 +1,25 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import Fill219 from "../images/Fill219.png";
-
-
-
-
-
 
 export default function Card(props) {
   return (
     <div>
       <div className="card">
-        <div className="image-placeholder">Image placeholder</div>
-          <img  
-          src={(`../images/${props.image}`)} 
-          className="card-image"
-          alt="card-pic"/> 
-          
-        <div>
-          <img src={ Fill219 } alt="drop" />
-          <div>{props.location}View on Google Maps</div>
-          
+        <img src={(`images/${props.image}`)} 
+            className="location-image" 
+            alt="card-image"/>
+        <div className="card-body">
+          <div className="card-header">
+            <img src="images/Fill219.png" 
+              className="drop"
+              alt="drop" />
+            <span className="location">{props.location}</span>
+            <a href={props.googleMapsUrl} className="map-url">View on Google Maps</a>
+          </div> 
+          <div className="card-title">{props.title}</div> 
+          <div className="dates">{props.startDate} - {props.endDate}</div>   
+          <div className="card-description">{props.description}</div>
         </div>
-        {props.title},  
-          {/* {props.location}
-          {props.googleMapsUrl}
-          {props.startDate}
-          {props.endDate}
-          {props.description} */}
-      
-        
       </div>
     </div>
   )

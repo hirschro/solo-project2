@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;  
+  width: 550px;
 }
 nav {
   display: flex;
@@ -16,16 +17,50 @@ nav {
 .navTitle {
   color: #fff;
   text-align: center;
-  padding-left: 5px;
+  padding-left: 10px;
 }
-.image-placeholder {
-  width: 125px;
-  height: 168px;
-  background: #000;
-  border-radius: 8px;
-  color: white;
-  text-align: center;
+.location-image {
+  padding: 40px 20px 0 40px;;
 }
 .card {
   display: flex;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+}
+.card-header {
+  display: block;
+}
+.drop {
+  width: 8px;
+  height: auto;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.location {
+  letter-spacing: 2px;
+  font-size: 10.5px;
+}
+.map-url {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #989898;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 8px 0 16px 0;
+}
+.dates {
+  font-size: 12.5px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.card-description {
+  font-size: 10.5px;
+  padding-right: 12px;
+  line-height: 150%;
 }

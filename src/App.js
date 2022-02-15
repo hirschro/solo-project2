@@ -10,12 +10,13 @@ function App() {
       <div>
         <Card 
           key={item.key}
-          img={item.image} 
-          location={item.location}
-          // googleMapsUrl={item.googleMapsUrl}
-          // startDate={item.startDate}
-          // endDate={item.endDate}
-          // description={item.description}
+          image={item.image} 
+          location={item.location.toUpperCase()}
+          googleMapsUrl={item.googleMapsUrl}
+          title={item.title}
+          startDate={item.startDate}
+          endDate={item.endDate}
+          description={item.description}
           
           />
         </div>

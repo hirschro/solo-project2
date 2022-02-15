@@ -9,7 +9,7 @@ export default [
       startDate: "12 Jan, 2021",
       endDate: "24 Jan, 2021",
       description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-      image: "rectangle77"
+      image: "rectangle77.png"
   },
   {
       key: 2,
@@ -25,7 +25,7 @@ export default [
       key: 3,
       title: "Geirangerfjord",
       location: "Norway",
-      googleMapsUrl: "",
+      googleMapsUrl: "https://www.google.com/maps/d/viewer?ie=UTF8&source=embed&oe=UTF8&msa=0&mid=1F48TXRDPvXIF9bPyo7cjvrYNGfw&ll=62.10007017019105%2C7.201604679099445&z=16",
       startDate: "Oct 1, 2021",
       endDate: "November 18, 2021",
       description: "The Geiranger Fjord is a fjord in the Sunnmore region of More og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
